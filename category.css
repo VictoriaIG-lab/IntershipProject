@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/*Navbar*/
+
+
+/*First Section*/
+
+.first-section{
+    background-color: #fbfbfb;
+    border: 1px solid #eceef2;
+    height: 210px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.content-first-section{
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-section p{
+    margin-top: 80px;
+    color: #a6b3c5;
+}
+
+.first-section h2{
+    margin-top: 25px;
+}
+
+/*main-container*/
+
+.main-container{
+    width: 1140px;
+    margin:auto;
+}
+
+.container-parent{
+    display: flex;
+}
+
+.child1{
+    width: 750px;
+    margin-right: 30px;
+}
+
+.child1 img{
+    width: 750px;
+    height: 450px;
+    position: relative;
+    object-fit: cover;
+}
+
+.main-img{
+    position: relative;
+}
+
+.title{
+   margin-bottom: -30px;
+   position: absolute;
+   margin-bottom: -5px;
+    bottom: 5%;
+    left: 20px;
+    color:white ;
+}
+
+.data button{
+    margin-right: 15px;
+    color: white;
+    background-color: #ff882b;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 25px;
+}
+
+.recent-posts-verticala{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 750px;
+    margin-top: 40px;
+}
+
+.photos-recent-posts{
+    width: 360px;
+    margin-bottom: 40px;
+}
+
+.photos-recent-posts img{
+ width: 360px;
+ height: 215px;
+}
+
+.data-recent-post{
+     display: flex;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+
+.data-recent-posts button{
+    margin-right: 15px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 25px;
+}
+
+
+.JS{
+    background-color: #ff882b; 
+    margin-right: 15px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 25px;
+   
+}
+
+.content-most-read{
+    width: 100%;
+    margin-right: 30px;
+    margin-top: 85px;
+}
+
+.articole-most-read {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.content-most-read img{
+    width: 300px;
+    height: 180px;
+}
+
+.info_mr{
+    margin-left: 30px;
+    width: 450px;
+}
+
+.data{
+    display: flex;
+}
+
+.info_mr h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*Section Bar*/
+
+.most-read{
+    margin-top: 60px;
+}
+
+.section_bar{
+    width: 30%;
+}
+
+.article{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.most-read img {
+   width: 90px;
+   height: 90px;
+   object-fit: cover;
+}
+
+.article h5{
+    margin-left: 20px;
+}
+
+/*section bar categories*/
+
+.categories{
+    margin-top: 45px;
+}
+
+.categories h2{
+    margin-bottom: 40px;
+}
+
+.limbaje-de-programare{
+    width: 340px;
+}
+
+.enumerare-limbaje{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceef2;
+    font-weight: 700;
+}
+
+#green{
+    background-color: #3eba42;
+    color: #ffffff;
+    padding: 1px 3px 1px 3px;
+    border-radius: 1px;
+}
+
+#orange{
+    background-color: #ff882b;
+    color: #ffffff;
+    padding: 1px 3px 1px 3px;
+    border-radius: 1px;
+}
+
+#blue{
+    background-color: #0075f9;
+    color: #ffffff;
+    padding: 1px 3px 1px 3px;
+    border-radius: 1px;
+}
+
+#violet{
+    background-color: #9000f8;
+    color: #ffffff;
+    padding: 1px 3px 1px 3px;
+    border-radius: 1px;
+}
+
+.taguri{
+    margin-top: 40px;
+    width: 310px;
+}
+
+.taguri button{
+    background-color: black;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+/*section bar archive */
+
+.archive{
+    margin-top: 45px;
+    font-weight: 700;
+}
+
+.archive h2{
+    margin-bottom: 45px;
+}
+.archive p{
+    padding: 15px 15px 15px 0px;
+    border-bottom: 1px solid #eceef2;
+}
+
+#black-button{
+    background-color: black;
+    color: #ffffff;
+    margin-left: 290px;
+    padding: 15px 50px 15px 50px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 160px;
+}
+
+
+/*footer section */
+
+
+@media only screen and (max-width: 768px) {
+    header {
+      display: none;
+    }
+
+.first-section{
+    width: 100%;
+}
+
+.container-parent{
+    flex-direction: column;
+    width: 100%;
+}
+
+.child1{
+    width: 100%;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.first-section h2 {
+    margin-left: 15px;
+}
+
+.first-section p {
+    margin-left: 15px;
+}
+
+.main-img{
+    width: 100%;
+}
+
+.main-img img{
+margin: 0;
+width: 100%;
+object-fit: cover;
+}
+
+.recent-posts-verticala{
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photos-recent-posts{
+    width: 100%;
+}
+.photos-recent-posts img{
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+
+.content-most-read{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articole-most-read{
+    flex-direction: column;
+}
+
+.articole-most-read img{
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+    height: auto;
+}
+
+.info_mr{
+    width: 100%;
+    margin-left: 0;
+}
+
+.section_bar{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_bar img{
+    object-fit: cover;
+}
+
+.categories{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.categories h2{
+    margin-bottom: 20px;
+}
+
+.enumerare-limbaje{
+    padding-left: 0px;
+}
+
+.limbaje-de-programare{
+    width: 100%;
+}
+
+.taguri{
+    width: 100%;
+}
+
+#black-button{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.footer{
+    flex-direction: column ;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo{
+    width: 90%;
+    margin: auto;
+}
+
+.about-us{
+    width: 90%;
+    margin: auto;
+}
+
+.footer .categories{
+    width: 90%;
+    margin: auto;
+}
+
+.newsletter{
+    width: 90%;
+    margin: auto;
+}
+
+.footer h4{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#FP{
+    margin-top: 0px;
+}
+
+#black-button{
+    margin-left: 15px;
+    padding: 7px 25px 7px 25px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.newsletter input{
+    margin-top: 10px;
+}
